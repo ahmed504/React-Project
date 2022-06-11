@@ -7,25 +7,34 @@ export const Container = styledComponents.div `
 `
 
 export const ImgItem = styledComponents.div `
-  width: 50%;
+  flex: 50%;
+
+  @media (max-width: 400px) {
+    flex: 100%
+  }
   `
 
   export const Img = styledComponents.img `
-    width: 100%;
+    
     object-fit: cover;
     width: 410px;
     height: 273px;
+
+    @media (max-width: 400px) {
+      width: 370px;
+      height: 245px;
+    }
 `
 
 export const Title = styledComponents.h4 `
-    color: #ff0000;
+    color: #fff;
     font-weight: bold;
     direction: rtl;
     unicode-bidi: bidi-override;
   `
 
   export const TitleDesc = styledComponents.h2 `
-    color: #ff0000;
+    color: #fff;
     font-size: 2.4em;
     font-weight: 700;
     margin-top: 0;
@@ -34,7 +43,12 @@ export const Title = styledComponents.h4 `
 `
 
 export const DescItem = styledComponents.div `
-  width: 50%;
+  flex: 50%;
+  color: #fff;
+
+  @media (max-width: 400px) {
+    flex: 100%
+  }
 `
 
 export const Desc = styledComponents.p `

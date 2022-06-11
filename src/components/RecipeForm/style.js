@@ -32,7 +32,7 @@ export const MethodInput = styled.textarea `
 export const Button = styled.button `
     padding: 10px 20px;
     background: #fff;
-    border: 2px solid #ff0000;
+    border: 2px solid #fff;
     cursor: pointer;
     margin: 0 auto;
     display: block;
