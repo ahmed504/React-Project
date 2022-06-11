@@ -22,3 +22,9 @@ code {
   width: 85%;
   margin: auto;
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: auto;
+  }
+}

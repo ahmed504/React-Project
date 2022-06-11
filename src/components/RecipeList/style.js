@@ -21,7 +21,7 @@ export const ImgItem = styledComponents.div `
     height: 273px;
 
     @media (max-width: 400px) {
-      width: 370px;
+      width: 335px;
       height: 245px;
     }
 `
