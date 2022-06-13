@@ -9,7 +9,7 @@ export const Container = styledComponents.div `
 export const ImgItem = styledComponents.div `
   flex: 50%;
 
-  @media (max-width: 400px) {
+  @media (max-width: 412px) {
     flex: 100%
   }
   `
@@ -20,9 +20,11 @@ export const ImgItem = styledComponents.div `
     width: 410px;
     height: 273px;
 
-    @media (max-width: 400px) {
-      width: 335px;
+    @media (max-width: 412px) {
+      width: 300px;
       height: 245px;
+      margin: auto;
+      display: block;
     }
 `
 
@@ -30,7 +32,6 @@ export const Title = styledComponents.h4 `
     color: #fff;
     font-weight: bold;
     direction: rtl;
-    unicode-bidi: bidi-override;
   `
 
   export const TitleDesc = styledComponents.h2 `
@@ -39,19 +40,17 @@ export const Title = styledComponents.h4 `
     font-weight: 700;
     margin-top: 0;
     direction: rtl;
-    unicode-bidi: bidi-override;
 `
 
 export const DescItem = styledComponents.div `
   flex: 50%;
   color: #fff;
 
-  @media (max-width: 400px) {
+  @media (max-width: 412px) {
     flex: 100%
   }
 `
 
 export const Desc = styledComponents.p `
     direction: rtl;
-    unicode-bidi: bidi-override;
   `

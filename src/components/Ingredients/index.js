@@ -35,4 +35,4 @@ const Ingredients = () => {
 
 export default Ingredients;
 
-// https://nicepage.com/website-design/preview/100-recipes-for-breakfast-180323?device=desktop
+// https://indokhadyaam.smaranjitghose.com/

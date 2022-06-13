@@ -4,7 +4,10 @@ const RecipeList = (props) => {
     return (
         <Container key={props.details.id}>
             <ImgItem>
-                <Img src={props.details.image}/>
+                {
+                    props.details.image &&
+                    <Img src={props.details.image}/>
+                }
             </ImgItem>
             <DescItem>
                 <TitleDesc>{props.details.title}</TitleDesc>
